@@ -162,9 +162,9 @@
     width: 219px;
     font-size: 14px;
     text-align: left;
-    float: right;
 }
 .aside-menu{
+    float: right;
     margin-right: 120px;
     overflow: hidden;
     border-radius: 3px;
