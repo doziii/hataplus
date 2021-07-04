@@ -1,8 +1,15 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
 .header-top{
+    margin: 0;
+    padding: 0;
     background-size: 100%;
     background-color: #1f1f56;
 }
 .top-menu{
+    margin: 0;
     background-color: #1f1f56;
     padding-left: 120px;
 }
@@ -170,11 +177,12 @@
     border-radius: 3px;
 }
 .aside-menu ul{
-    margin: 0;
+    margin-top: 0;
     padding-left: 0;
     list-style: none;
 }
 .aside-menu p{
+    margin: 0;
     font-size: 16px;
     color: #fff;
     font: 700 16px/1.5em "Roboto Slab";
@@ -324,6 +332,7 @@
     padding-left: 26px;
 }
 .info-house{
+    margin-bottom: 0;
     margin-left: 80px;
     padding-right: 115px;
     margin-right: 28px;
@@ -357,13 +366,15 @@
     background-color: #ededf5;
 }
 .copyright{
+    padding-right: 475px;
+    padding-left: 475px;
+    list-style: none;
     text-align: center;
     height: 45px;
-    list-style: none;
     background-color: #dcdce6;
 }
 .copyright a{
-    margin-bottom: 16px;
+    text-align: center;
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
