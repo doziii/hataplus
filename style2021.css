@@ -143,6 +143,9 @@
     background-color: #ffffff;
     border: 2px solid #fd8300;
 }
+.social{
+    margin: 0;
+}
 .social li{
     list-style: none;
 }
