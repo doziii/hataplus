@@ -33,20 +33,25 @@
     font-family: "Arial";
 }
 .image{
-    padding-top: 10px;
-    padding-left: 120px;
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 220px;
+    height: 57px;
+    list-style: none;
+    background-image: url(img/logo.png);
 }
 .contact{
     margin-top: 30px;
     margin-right: 365px;
 }
 .email{
-    padding-left: 12px;
+    padding-left: 10px;
+    margin-right: 30px;
     float: right;
     list-style: none;
 }
 .email-contact{
-    padding-left: 6px;
+    padding-left: 5px;
 }
 .email a:hover{
     text-decoration: none;
@@ -57,11 +62,14 @@
     color: #25252c;
     font-family: "Arial";
 }
+.img-top{
+    margin-left: 14px;
+}
 .number{
+    border-right: 1px solid #e4e4ec;
+    margin-right: 14px;
     padding-left: 45px;
-    padding-right: 12px;
-    margin-left: 30px;
-    margin-right: 28px;
+    padding-right: 26px;
     float: right;
     list-style: none;
 }
@@ -74,12 +82,11 @@
 .layer{
     list-style: none;
     text-decoration: none;
-    width: 100%;
     height: 240px;
     list-style: none;
     background-color: black;
     background-image: url(img/layer.png);
-
+    background-size: 100%;
 }
 .layer h1{
     margin: 0;
@@ -92,12 +99,18 @@
     font-weight: 700;
     font-family: "Roboto Slab";
 }
-.layer p{
+.proposition{
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
     font-family: "Arial";
     text-align: center;
+}
+.currency,
+.price{
+    margin: 0;
+    text-align: center;
+    display: inline-block;
 }
 .currency{
     font-size: 24px;
@@ -107,8 +120,7 @@
     font-family: "Arial";
 }
 .price{
-    padding-left: 507px;
-    text-decoration: none;
+    padding-left: 577px;
     font-size: 40px;
     line-height: 24px;
     color: #fd8300;
@@ -169,8 +181,13 @@
     margin-right: 120px;
     list-style: none;
 }
+.call a:hover{
+    color: #fff;
+    background-color: #fd8300;
+}
 .call a{
-    margin-top: 25px;
+    margin-top: 37px;
+    margin-left: 10px;
     float: right;
     padding-top: 15px;
     text-decoration: none;
@@ -197,12 +214,15 @@
     text-decoration: none;
 }
 .logo{
-    margin-top: 115px;
+    margin-top: 50px;
 }
 .info{
     margin-top: 45px;
     width: 710px;
     height: 240px;
+}
+.info p{
+    font-family: "Roboto Slab";
 }
 .info{
     border-bottom: 2px solid #cdcddd;
@@ -251,17 +271,17 @@
     padding: 11px 15px;
     color: #25252c;
     background-color: #e4e4ec;
-    transition: all .5s ease;
+    transition: all .25s ease;
 }
 .aside-menu a:hover::before{
     border-color: #fff;
     transform: rotate(45deg);
 }
 .aside-menu>ul>li>a::before{
-    top: 18px;
-    right: 15px;
     content: "";
     position: absolute;
+    top: 18px;
+    right: 15px;
     width: 7px;
     height: 7px;
     border: 2px solid #666;
@@ -368,7 +388,6 @@
     list-style: none;
 }
 .info-house a{
-    text-decoration: none;
     font-size: 14px;
     line-height: 26px;
     color: #666666;
@@ -393,6 +412,10 @@
 .info-under{
     background-size: cover;
     background-color: #ededf5;
+}
+.info-under a:hover{
+    text-decoration: none;
+    color: #fd8300;
 }
 .copyright{
     padding-right: 475px;
