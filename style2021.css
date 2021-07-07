@@ -71,6 +71,50 @@
 .number-second{
     margin-left: 26px;
 }
+.layer{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 55px;
+    max-width: 1200px;
+    height: 240px;
+    list-style: none;
+    background-color: black;
+    background-image: url(/img/layer.png);
+}
+.layer h1{
+    margin: 0;
+    padding-top: 57px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.layer p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+.currency{
+    font-size: 24px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.price{
+    padding-left: 507px;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
 .number a{
     text-decoration: none;
     font-size: 18px;
@@ -165,6 +209,7 @@
     margin-left: 120px;
 }
 .aside-menu{
+    margin-right: 120px;
     margin-top: 45px;
     margin-right: 120px;
     display: inline-block;
@@ -243,24 +288,6 @@
 .menu-house li{
     display: inline-block;
 }
-.menu-house a{
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #1f1f56;
-    font-weight: bold;
-    font-family: "Arial";
-}
-.menu-house p{
-    margin-left: 15px;
-    width: 220px;
-    height: 53px;
-    font-size: 13px;
-    line-height: 18px;
-    color: #9999a6;
-    font-family: "Arial";
-}
 .menu-house h1{
     margin-top: 60px;
     font-size: 24px;
@@ -270,26 +297,24 @@
     font-family: "Roboto Slab";
     margin-left: 120px;
 }
-.house{
-    display: inline-block;
-    margin-left: 120px;
-    width: 220px;
-    height: 150px;
+.menu-house li{
+    margin-right: 28px;
+    width: 237px;
 }
-.edmonton{
-    width: 220px;
-    height: 150px;
-    margin-left: 120px;
+.menu-house a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    font-family: "Arial";
 }
-.montreal{
-    margin-left: 15px;
+.menu-house p{
     width: 220px;
-    height: 150px;
-}
-.calgary{
-    margin-left: 15px;
-    width: 220px;
-    height: 150px;
+    height: 53px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";   
 }
 .info-plus{
     list-style: none;
