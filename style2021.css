@@ -9,7 +9,8 @@
     background-color: #1f1f56;
 }
 .top-menu{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     background-color: #1f1f56;
     padding-left: 120px;
 }
@@ -32,7 +33,8 @@
     color: #b1b1d2;
     font-family: "Arial";
 }
-.image{
+.logo{
+    margin-bottom: 20px;
     margin-left: 130px;
     width: 220px;
     height: 57px;
@@ -40,10 +42,15 @@
     background-image: url(img/logo.png);
 }
 .contact{
-    margin-top: 30px;
+    margin-top: 0;
     margin-right: 365px;
 }
+.contact ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .email{
+    margin-top: 0;
     padding-left: 10px;
     margin-right: 30px;
     float: right;
@@ -62,6 +69,7 @@
     font-family: "Arial";
 }
 .number{
+    margin-top: 0;
     border-right: 1px solid #e4e4ec;
     margin-right: 14px;
     padding-left: 45px;
@@ -73,20 +81,23 @@
     margin-right: 10px;
 }
 .number-second{
-    margin-left: 26px;
+    margin-left: 30px;
 }
-.layer{
-    list-style: none;
-    text-decoration: none;
-    height: 240px;
-    list-style: none;
-    background-color: black;
-    background-image: url(img/layer.png);
+.image{
+    height: 200px;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(img/layer.png);
+    background-color: black;
 }
-.layer h1{
+.image p{
+    padding-top: 10px;
     margin: 0;
-    padding-top: 57px;
+    text-align: center;
+}
+.image h1{
+    margin: 0;
+    padding-top: 25px;
     text-align: center;
     font-size: 30px;
     letter-spacing: 2px;
@@ -102,21 +113,12 @@
     font-family: "Arial";
     text-align: center;
 }
-.currency,
-.price{
-    margin: 0;
+.image p{
     text-align: center;
-    display: inline-block;
-}
-.currency{
-    font-size: 24px;
-    line-height: 24px;
-    color: #fd8300;
-    font-weight: bold;
-    font-family: "Arial";
 }
 .price{
-    padding-left: 577px;
+    padding-top: 16px;
+    height: 30px;
     font-size: 40px;
     line-height: 24px;
     color: #fd8300;
@@ -182,7 +184,6 @@
     background-color: #fd8300;
 }
 .call a{
-    margin-top: 37px;
     margin-left: 10px;
     float: right;
     padding-top: 15px;
@@ -208,9 +209,6 @@
 }
 .social a{
     text-decoration: none;
-}
-.logo{
-    margin-top: 50px;
 }
 .info{
     margin-top: 45px;
@@ -414,10 +412,8 @@
     color: #fd8300;
 }
 .copyright{
-    padding-right: 475px;
-    padding-left: 475px;
+    display: block;
     list-style: none;
-    text-align: center;
     height: 45px;
     background-color: #dcdce6;
 }
